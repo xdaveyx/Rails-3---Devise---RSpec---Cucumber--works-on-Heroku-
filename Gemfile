@@ -14,3 +14,5 @@ gem 'jquery-rails'
 gem "rspec-rails", ">= 2.6.1", :group => [:development, :test]
 gem "devise", ">= 1.4.7"
 gem "frontend-helpers"
+gem "execjs"
+gem "therubyracer"
