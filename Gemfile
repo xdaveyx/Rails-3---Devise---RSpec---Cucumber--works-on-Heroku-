@@ -7,6 +7,9 @@ group :assets do
   gem 'coffee-rails', '~> 3.1.1'
   gem 'uglifier', '>= 1.0.3'
 end
+group :production do
+	gem 'pg'
+end
 gem 'jquery-rails'
 gem "rspec-rails", ">= 2.6.1", :group => [:development, :test]
 gem "devise", ">= 1.4.7"
